@@ -1,63 +1,82 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: hsl(212, 45%, 89%);
+body {
+  box-sizing: border-box;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  background-color: hsl(212, 45%, 89%);
 }
 /* --------------------------Content section----------------------- */
-.content{
-    background-color: hsl(0, 0%, 100%);
-    width: 19%;
-    position: relative;
-    left: 550px;
-    top: 150px;
-    text-align: center;
-    border-radius: 15px;
+.content {
+  width: 260px;
+  height: auto;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  padding: 0.3rem;
+  margin-top: 203px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 28px 1px rgba(0, 0, 0, 0.1);
 }
 
-.content img{
-    height: 240px;
-    width: 230px;
-    border-radius: 15px;
-    padding-top: 12px;
+.content img {
+  height: 15.2rem;
+  width: auto;
+  border-radius: 15px;
+  padding: 0.5rem;
+  margin: 0 auto;
+  align-self: center;
 }
 
-.write-up{
-    width: 230px;
-    padding-bottom: 12px;
-    text-align: center;
-    padding-left: 12px;
+.write-up {
+  width: 230px;
+  padding-bottom: 12px;
+  text-align: center;
+  padding-left: 12px;
 }
 
-.write-up h3{
-    color: hsl(218, 44%, 22%);
+.write-up h3 {
+  margin: -0.1rem;
+  text-align: center;
+  padding: 0.6rem;
+  color: hsl(218, 44%, 22%);
+  font-size: 1.2rem;
+  font-family: "Outfit", sans-serif;
 }
 
-.write-up p{
-    color: hsl(220, 15%, 55%);
-    font-size: 15px;
+.write-up p {
+  margin-top: 0.6rem;
+  text-align: center;
+  padding: 0.65rem;
+  font-weight: 500;
+  color: hsl(220, 15%, 55%);
+  font-size: 0.9rem;
+  font-family: "Outfit", sans-serif;
 }
-
 
 /* --------------------------Attribution section----------------------- */
-.attribution { 
-    position: relative;
-    top: 200px;
-    font-size: 11px; text-align: center;
+.attribution {
+  position: relative;
+  top: 200px;
+  font-size: 11px;
+  text-align: center;
 }
+
 .attribution a {
-     color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width: 480px) {
-    .content{
-        align-items: center;
-        left: 50px;
-        width: 70%;
-    }
+  .content {
+    width: 260px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    padding: 0.3rem;
+    margin-top: 203px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 28px 1px rgba(0, 0, 0, 0.1);
+  }
 
-    .attribution{
-        display: none;
-    }
-
+  .attribution {
+    display: none;
+  }
 }
