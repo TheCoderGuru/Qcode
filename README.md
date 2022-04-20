@@ -29,7 +29,7 @@ This project is a QR code component solution.
 ### Link
 
 - Solution URL: https://Github.com/HenryAgu/QRcode
-- Live URL :
+- Live URL : https://lively-pony-1a9612.netlify.app/
 
 
 ### Built with
