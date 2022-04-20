@@ -1,0 +1,63 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+/* --------------------------Content section----------------------- */
+.content{
+    background-color: hsl(0, 0%, 100%);
+    width: 19%;
+    position: relative;
+    left: 550px;
+    top: 150px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.content img{
+    height: 240px;
+    width: 230px;
+    border-radius: 15px;
+    padding-top: 12px;
+}
+
+.write-up{
+    width: 230px;
+    padding-bottom: 12px;
+    text-align: center;
+    padding-left: 12px;
+}
+
+.write-up h3{
+    color: hsl(218, 44%, 22%);
+}
+
+.write-up p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+
+/* --------------------------Attribution section----------------------- */
+.attribution { 
+    position: relative;
+    top: 200px;
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 480px) {
+    .content{
+        align-items: center;
+        left: 50px;
+        width: 70%;
+    }
+
+    .attribution{
+        display: none;
+    }
+
+}
